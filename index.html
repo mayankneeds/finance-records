@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Finance Records</title>
-  <meta name="description" content="Finance Records - Personal expense manager and tracker. Control your money with privacy first.">
+  <meta name="description"
+    content="Finance Records - Personal expense manager and tracker. Control your money with privacy first.">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <nav class="glass-nav">
     <a href="index.html" class="logo">Finance Records</a>
@@ -17,33 +20,48 @@
   </nav>
 
   <header>
-    <div class="cover-image"></div>
+    <img src="assets/cover.webp" alt="Finance Records App Cover" class="cover-image"
+      style="background: none; display: block; width: 100%; height: 40vh; object-fit: cover;">
     <div class="notion-page" style="padding-top: 0; padding-bottom: 0;">
       <div class="icon-container">
-        <img src="assets/icon.png" alt="Finance Records App Icon">
+        <img src="assets/icon.webp" alt="Finance Records App Icon">
       </div>
     </div>
   </header>
 
   <main class="notion-page" style="padding-top: 20px;">
     <h1 class="title">Finance Records</h1>
-    
-    <div class="callout">
-      <span class="callout-icon">💡</span>
-      <div>
-        <strong>Personal Expense Manager & Tracker</strong>
-        <br>
-        Take control of your money, track your daily expenses, and manage your budget effortlessly without comprising your privacy.
-      </div>
-    </div>
 
-    <h2>Features</h2>
+    <h2>Overview</h2>
+    <p><strong>Finance Records</strong> is a lightweight, privacy-focused Android application designed to help you track your daily expenses and manage your personal budget. Your data stays on your device—we don't track you or sell your information.</p>
+
+    <h2>Key Features</h2>
     <ul>
-      <li><strong>Track Everything:</strong> Quickly log your income and expenses on the go.</li>
-      <li><strong>Visual Reports:</strong> Understand your spending habits with clear, interactive charts.</li>
-      <li><strong>Privacy First:</strong> No sign-in required. All your financial data stays completely completely on your device.</li>
-      <li><strong>iCloud Sync:</strong> Optionally sync your data across your Apple devices securely.</li>
+      <li><strong>Local-First Tracking:</strong> All your financial data is stored securely on your phone using a local database.</li>
+      <li><strong>Categorized Spending:</strong> Organize your costs into custom categories like Food, Utilities, Transport, and more.</li>
+      <li><strong>Simple Visualization:</strong> Get a clear picture of where your money goes with intuitive summaries.</li>
+      <li><strong>Secure Backups:</strong> (Optional) Sync your data to your private Google Drive for peace of mind.</li>
     </ul>
+
+    <h2>Download for Android</h2>
+    <p>The safest way to install the app is through the official Google Play Store.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.mayank.financerecords" target="_blank" style="display: inline-block; padding: 10px 16px; background: var(--accent); color: white; border-radius: 6px; font-weight: 600; text-decoration: none; margin-top: 6px; transition: background 0.2s;">Get Finance Records on Google Play ➔</a>
+
+    <hr>
+
+    <h2>Privacy & Transparency</h2>
+    <ul>
+      <li><strong>No Accounts Required:</strong> You don’t need to sign up or provide an email to use the app.</li>
+      <li><strong>Data Control:</strong> You can export or delete your data at any time from within the app settings.</li>
+      <li><strong>Permissions:</strong> We only ask for the minimum permissions required for basic functionality (like Storage for exports).</li>
+    </ul>
+
+    <hr>
+
+    <h2>Contact & Support</h2>
+    <p>Have questions or need help? Reach out to the developer at: 📧 <a href="mailto:HowdyMayank@gmail.com">HowdyMayank@gmail.com</a></p>
+
+    <hr>
 
     <h2>Documents</h2>
     <div class="card-container">
@@ -56,13 +74,14 @@
         <p>Read the terms for using the app.</p>
       </a>
     </div>
-    
+
     <hr>
-    
+
     <p style="text-align: center; color: var(--text-muted); font-size: 14px;">
       &copy; 2026 Finance Records. All rights reserved.
     </p>
 
   </main>
 </body>
+
 </html>
